@@ -1,17 +1,36 @@
 package com.teaching.android;
 
+import java.util.Scanner;
+
 /**
  * Empty Java App for teaching purposes.
  */
 public class JavaApp {
 
-    public static void main(String[] args) {
-        System.out.println("Easy!!"); // Display the string.
+    public static void main(String[] args)
+    {
+        System.out.println("Introduce tu número");
+        Scanner sc =new Scanner(System.in);
+        int value = sc.nextInt();
+        //do {
 
-        System.out.println(2+5-3*2); //1
-        System.out.println(2*4*2/2); //8
-        System.out.println(1/2); //0
-        System.out.println(5*(1/2)); //0
-        System.out.println(5f*1/2); //2.5
+            System.out.println(value);
+            sc.close();
+            if (value % 2 == 0)
+            {
+
+                System.out.println("Tu número es par");
+                sc.close();
+
+            }
+            else if (value % 2 != 0)
+            {
+                
+                System.out.println("Tu número es impar");
+                sc.close();
+            }
+        //} while (value != -1);
+
+
+        }
     }
-}
