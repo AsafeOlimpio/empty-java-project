@@ -20,7 +20,6 @@ public class JavaApp {
 
             Scanner sc =new Scanner(System.in);
             int value = sc.nextInt();
-            System.out.println("Try Again");
 
             if (value == random) {
                 System.out.println("Correct");
@@ -32,6 +31,7 @@ public class JavaApp {
                 System.out.println("The Number is Greater");
                 a = --a;
             }
+            System.out.println("Try Again");
         } while (a > 0);
 
         System.out.println("The number is " + random);
