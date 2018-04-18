@@ -11,25 +11,27 @@ public class JavaApp {
     public static void main(String[] args)
     {
 
-        int a = 0;
+        int a = 3;
+        Random generator = new Random();
+        final int random = generator.nextInt(10) + 1;
 
         do {
-
-            System.out.println("Introduce tu número");
+            System.out.println("Introduce a Number");
             Scanner sc =new Scanner(System.in);
             int value = sc.nextInt();
 
-            Random generator = new Random();
-            int random = generator.nextInt(10) + 1;
-
-
             if (value == random) {
-                System.out.println("Correct" + ++a);
+                System.out.println("Correct");
+                break;
             } else if (value > random) {
-                System.out.println("Greater" + ++a);
-            } else if (value < random) {
-                System.out.println("Smaller" + ++a);
+                System.out.println("Smaller");
+                a = --a;
+            } else {
+                System.out.println("Greater");
+                a = --a;
             }
-        } while (a == 3);
+        } while (a > 0);
+
+        System.out.println(random);
     }
 }
