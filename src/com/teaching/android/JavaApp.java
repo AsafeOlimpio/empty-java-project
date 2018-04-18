@@ -1,5 +1,6 @@
 package com.teaching.android;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -9,28 +10,26 @@ public class JavaApp {
 
     public static void main(String[] args)
     {
-        System.out.println("Introduce tu número");
-        Scanner sc =new Scanner(System.in);
-        int value = sc.nextInt();
-        //do {
 
-            System.out.println(value);
-            sc.close();
-            if (value % 2 == 0)
-            {
+        int a = 0;
 
-                System.out.println("Tu número es par");
-                sc.close();
+        do {
 
+            System.out.println("Introduce tu número");
+            Scanner sc =new Scanner(System.in);
+            int value = sc.nextInt();
+
+            Random generator = new Random();
+            int random = generator.nextInt(10) + 1;
+
+
+            if (value == random) {
+                System.out.println("Correct" + ++a);
+            } else if (value > random) {
+                System.out.println("Greater" + ++a);
+            } else if (value < random) {
+                System.out.println("Smaller" + ++a);
             }
-            else if (value % 2 != 0)
-            {
-                
-                System.out.println("Tu número es impar");
-                sc.close();
-            }
-        //} while (value != -1);
-
-
-        }
+        } while (a == 3);
     }
+}
