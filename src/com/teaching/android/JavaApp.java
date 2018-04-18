@@ -14,9 +14,10 @@ public class JavaApp {
         int a = 3;
         Random generator = new Random();
         final int random = generator.nextInt(10) + 1;
+        System.out.println("I'm thinking on a number. Can you guess it? Introduce a Number");
 
         do {
-            System.out.println("Introduce a Number");
+
             Scanner sc =new Scanner(System.in);
             int value = sc.nextInt();
 
@@ -25,9 +26,11 @@ public class JavaApp {
                 break;
             } else if (value > random) {
                 System.out.println("Smaller");
+                System.out.println("Try Again");
                 a = --a;
             } else {
                 System.out.println("Greater");
+                System.out.println("Try Again");
                 a = --a;
             }
         } while (a > 0);
