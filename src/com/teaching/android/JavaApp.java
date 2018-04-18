@@ -20,21 +20,20 @@ public class JavaApp {
 
             Scanner sc =new Scanner(System.in);
             int value = sc.nextInt();
+            System.out.println("Try Again");
 
             if (value == random) {
                 System.out.println("Correct");
                 break;
             } else if (value > random) {
-                System.out.println("Smaller");
-                System.out.println("Try Again");
+                System.out.println("The Number is Smaller");
                 a = --a;
             } else {
-                System.out.println("Greater");
-                System.out.println("Try Again");
+                System.out.println("The Number is Greater");
                 a = --a;
             }
         } while (a > 0);
 
-        System.out.println(random);
+        System.out.println("The number is " + random);
     }
 }
