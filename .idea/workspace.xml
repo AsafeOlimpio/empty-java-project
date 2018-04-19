@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8c7226-4099-417e-b29a-2e7b34ad675f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Punto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Punto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,11 +33,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Punto.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Circulo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Punto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="-726">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="e#333#334#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
@@ -44,6 +68,18 @@
                 <element signature="e#463#464#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuessTheNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,10 +107,11 @@
         <option value="$PROJECT_DIR$/src/com/teaching/android/Exercise_For.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/main.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/JavaApp.java" />
-        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java" />
       </list>
     </option>
   </component>
@@ -172,9 +209,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaApp">
+  <component name="RunManager" selected="Application.Circulo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Circulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teaching.android.Circulo" />
+      <module name="empty-java-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teaching.android.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Ejercicio_For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio_For" />
@@ -368,9 +416,11 @@
     <list>
       <item itemvalue="Application.JavaApp" />
       <item itemvalue="Application.Ejercicio_For" />
+      <item itemvalue="Application.Circulo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Circulo" />
         <item itemvalue="Application.JavaApp" />
         <item itemvalue="Application.Ejercicio_For" />
       </list>
@@ -530,10 +580,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="663">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -548,19 +615,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class GuessTheNumber {
 
     public static void main(String[] args) {
-        do {
+        //do {
             JavaApp.guessTheNumber();
             JavaApp.tryAgain();
-        }while (tryAgain());
+        //}while (tryAgain());
     }
 
     public static void guessTheNumber() {
@@ -46,7 +46,7 @@ public class GuessTheNumber {
         System.out.println("Want to play again? If Yes type: (y) If not type: (n)");
         text = keyboard.nextLine();
         if (text.equals("y")) {
-            //guessTheNumber();
+            guessTheNumber();
             return true;
         } else {
             System.out.println("Adiós");
