@@ -8,7 +8,6 @@ public class GuessTheNumber {
     public static void main(String[] args) {
         //do {
             JavaApp.guessTheNumber();
-            JavaApp.tryAgain();
         //}while (tryAgain());
     }
 
@@ -38,19 +37,20 @@ public class GuessTheNumber {
         } while (a > 0);
 
         System.out.println("The number is " + random);
+
+        JavaApp.tryAgain();
     }
 
-    public static boolean tryAgain() {
+    public static void tryAgain() {
         Scanner keyboard = new Scanner(System.in);
         String text;
         System.out.println("Want to play again? If Yes type: (y) If not type: (n)");
         text = keyboard.nextLine();
         if (text.equals("y")) {
             guessTheNumber();
-            return true;
         } else {
             System.out.println("Adiós");
-            return false;
+            System.exit(0);
         }
     }
 }

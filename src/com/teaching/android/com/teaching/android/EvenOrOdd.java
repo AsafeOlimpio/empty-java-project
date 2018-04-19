@@ -3,6 +3,7 @@ package com.teaching.android;
 import java.util.Scanner;
 
 public class EvenOrOdd {
+
     private int x;
 
     public static void main(String[]args){
