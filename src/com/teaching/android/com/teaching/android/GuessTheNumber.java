@@ -18,8 +18,8 @@ public class GuessTheNumber {
         final int random = generator.nextInt(10) + 1;
         System.out.println("I'm thinking on a number. Can you guess it? Introduce a Number");
 
-        do {
-
+        //do {
+        for (int i = 0; i < 3; i++) {
             Scanner sc = new Scanner(System.in);
             int value = sc.nextInt();
 
@@ -28,13 +28,14 @@ public class GuessTheNumber {
                 break;
             } else if (value > random) {
                 System.out.println("The Number is Smaller");
-                a = --a;
+                //a = --a;
             } else {
                 System.out.println("The Number is Greater");
-                a = --a;
+                //a = --a;
             }
-            System.out.println("You have " + a + " tries");
-        } while (a > 0);
+            System.out.println("You have " + i + " tries");
+        }
+        //} while (a > 0);
 
         System.out.println("The number is " + random);
 
