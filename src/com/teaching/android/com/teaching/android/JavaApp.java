@@ -9,11 +9,14 @@ import java.util.Scanner;
 public class JavaApp {
 
     public static void main(String[] args) {
-        do {
+        /*do {
             JavaApp.guessTheNumber();
             JavaApp.tryAgain();
-        }while (tryAgain());
-
+        }while (tryAgain());*/
+        Persona p1 = new Persona("Pepe", 100);
+        Persona p2 = new Persona("Paco", 500);
+        p1.pagar(p2,200F);
+        System.out.println("Pepe Tiene: " + p1.getDinero() + " Paco Tiene: " + p2.getDinero());
     }
 
 

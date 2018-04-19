@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0a8c7226-4099-417e-b29a-2e7b34ad675f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/empty-java-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/empty-java-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/empty-java-project/empty-java-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/Exercise_For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/Exercise_For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/JavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/JavaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/JavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +20,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="JavaApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/JavaApp.java">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Persona.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -53,7 +60,10 @@
         <option value="$PROJECT_DIR$/src/com/teaching/android/Ejercicio_For.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Ejercicio_For.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/Exercise_For.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/main.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/JavaApp.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" />
       </list>
     </option>
   </component>
@@ -103,6 +113,21 @@
               <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -359,33 +384,33 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2400636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2400636" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23718888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23718888" />
       <window_info id="Learn" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -396,7 +421,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/JavaApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
@@ -406,17 +441,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/JavaApp.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Ejercicio_For.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/JavaApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Ejercicio_For.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
@@ -426,7 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/JavaApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
@@ -436,7 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/JavaApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -450,12 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/JavaApp.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Ejercicio_For.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/Exercise_For.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -463,10 +483,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/JavaApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

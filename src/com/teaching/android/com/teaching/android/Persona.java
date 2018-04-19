@@ -1,25 +1,36 @@
 package com.teaching.android;
 
 public class Persona {
-    private String Persona;
-    private float Dinero;
+    private String nombre;
+    private float dinero;
 
-    public String getPersona() {
-        return Persona;
+    public Persona(String nombre, float dinero) {
+        this.nombre = nombre;
+        this.dinero = dinero;
     }
 
-    public void setPersona(String persona) {
-        Persona = persona;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+
+        this.nombre = nombre;
     }
 
     public float getDinero() {
-        return Dinero;
+        return dinero;
     }
 
     public void setDinero(float dinero) {
-        Dinero = dinero;
+        this.dinero = dinero;
     }
 
-    Persona Paco = new Persona();
-    Persona Pepe = new Persona();
+    public void pagar(Persona p, float cantidad) {
+        dinero = dinero + cantidad;
+        p.dinero = p.dinero - cantidad;
+
+    }
+
 }
