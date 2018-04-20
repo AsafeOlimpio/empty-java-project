@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a8c7226-4099-417e-b29a-2e7b34ad675f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +18,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GuessTheNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GuessTheNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="935">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Persona.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvenOrOdd.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/EvenOrOdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -51,12 +80,12 @@
         <option value="$PROJECT_DIR$/src/com/teaching/android/Exercise_For.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/main.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/JavaApp.java" />
-        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/EvenOrOdd.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" />
       </list>
     </option>
   </component>
@@ -136,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuessTheNumber">
+  <component name="RunManager" selected="Application.Persona">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -150,11 +179,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="Ejercicio_For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio_For" />
-      <module name="empty-java-project" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="EvenOrOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teaching.android.EvenOrOdd" />
@@ -180,6 +204,17 @@
     </configuration>
     <configuration name="JavaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teaching.android.JavaApp" />
+      <module name="empty-java-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teaching.android.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Persona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teaching.android.Persona" />
       <module name="empty-java-project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -364,18 +399,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.JavaApp" />
-      <item itemvalue="Application.Ejercicio_For" />
       <item itemvalue="Application.Circulo" />
       <item itemvalue="Application.EvenOrOdd" />
       <item itemvalue="Application.GuessTheNumber" />
+      <item itemvalue="Application.Persona" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Persona" />
         <item itemvalue="Application.GuessTheNumber" />
         <item itemvalue="Application.EvenOrOdd" />
         <item itemvalue="Application.Circulo" />
         <item itemvalue="Application.JavaApp" />
-        <item itemvalue="Application.Ejercicio_For" />
       </list>
     </recent_temporary>
   </component>
@@ -394,6 +429,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -482,6 +518,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -580,6 +619,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/EvenOrOdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -587,12 +636,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
           </folding>
         </state>
       </provider>

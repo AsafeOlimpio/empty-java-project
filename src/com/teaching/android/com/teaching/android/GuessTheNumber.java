@@ -7,7 +7,7 @@ public class GuessTheNumber {
 
     public static void main(String[] args) {
         //do {
-            JavaApp.guessTheNumber();
+        JavaApp.guessTheNumber();
         //}while (tryAgain());
     }
 

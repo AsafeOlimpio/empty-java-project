@@ -1,7 +1,55 @@
 package com.teaching.android;
 
 public class Persona {
+
+    public static void main(String[]args){
+        Persona p1 = new Persona("Paco",700f);
+        Persona p2 = new Persona("Pepe",500f);
+        p2.pagar(p1,200f);
+        System.out.println(p1);
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", dinero=" + dinero +
+                '}';
+    }
+
     private String nombre;
+    private float dinero;
+
+    public Persona(String nombre, float dinero) {
+        this.nombre = nombre;
+        this.dinero = dinero;
+    }
+
+    public void pagar(Persona quien, float cantidad){
+        dinero = dinero + cantidad;
+        quien.dinero = dinero - cantidad;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public float getDinero() {
+        return dinero;
+    }
+
+    public void setDinero(float dinero) {
+        this.dinero = dinero;
+    }
+
+
+
+
+/*private String nombre;
     private float dinero;
 
     public static void main(String[] args) {
@@ -39,6 +87,6 @@ public class Persona {
 
     public void setDinero(float dinero) {
         this.dinero = dinero;
-    }
+    }*/
 
 }
