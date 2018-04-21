@@ -43,11 +43,11 @@ public class Punto {
                 '}';
     }
 
-    private double distancia(double px, double py) {
+    public double distancia(double px, double py) {
        /* // variables x
-        int difx = px - x;
+        double difx = px - x;
         //variables y
-        int dify = py - y;
+        double dify = py - y;
         //Elevación
         double elevationx = Math.pow(difx, 2);
         double elevationy = Math.pow(dify, 2);
@@ -60,9 +60,9 @@ public class Punto {
     }
 
     //Al crear este método puedo dejar el metodo distancia como privado
-    public double distancia(Punto p) {
+    /*public double distancia(Punto p) {
         double resultado = distancia(p.x,p.y);
         return resultado;
-    }
+    }*/
 
 }

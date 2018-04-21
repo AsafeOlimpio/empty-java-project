@@ -5,8 +5,9 @@ public class Circulo {
     private int radio;
 
     public static void main(String[]args){
-     Circulo C1 = new Circulo(10,2,3);
-     System.out.println(C1);
+     Circulo C1 = new Circulo(5,2,3);
+     System.out.println("El área del: " + C1 + " Es: " + C1.getArea());
+     System.out.println("La Circumferencia del: " + C1 + " Es: " + C1.getCircumference());
     }
 
     //Constructor vacio
@@ -15,6 +16,7 @@ public class Circulo {
     //Constructor con parametros
     public Circulo (int radio, int x, int y){
         this.centro = new Punto(x,y);
+        this.radio = radio;
     }
 
     //Constructor Con 2 parametros
@@ -30,12 +32,16 @@ public class Circulo {
        return Area;
     }
 
+    public double getCircumference(){
+        double Cf = (Math.PI * 2) * radio;
+        return Cf;
+    }
+
     @Override
     public String toString() {
-        return "Circulo{" +
-                "centro=" + centro +
-                ", radio=" + radio +
-                '}';
+        return "Circulo de" +
+                " " + centro +
+                "y radio=" + radio;
     }
 
 //Getters & Setters
