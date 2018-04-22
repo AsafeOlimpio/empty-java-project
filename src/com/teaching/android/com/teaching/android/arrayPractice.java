@@ -4,44 +4,44 @@ import java.util.Arrays;
 
 public class arrayPractice {
     int size = 3;
-    private int[][] anArray2 = new int[size][size];
-    private int[] anArray1 = {3,2,1,1,2,3,2,3,1};
+    private int[][] matriz = new int[size][size];
+    private int[] vector = {};
 
 
 
     public arrayPractice() {
-        this.anArray2 = anArray2;
-        this.anArray1 = anArray1;
+        this.matriz = matriz;
+        this.vector = vector;
 
     }
 
     //Inicialize
-    public void asignar(){
-        this.anArray2 = anArray2;
-        this.anArray1 = anArray1;
+    public void asignarDatos(){
+        this.matriz = matriz;
+        this.vector = vector;
         int indice = 0;
-        for (int i = 0; i < anArray2.length; i++){
-            for (int j = 0; j < anArray2.length; j++){
-                anArray2[i][j] = anArray1[indice++];
+        for (int i = 0; i < matriz.length; i++){
+            for (int j = 0; j < matriz.length; j++){
+                matriz[i][j] = vector[indice++];
             }
         }
-        System.out.println(anArray2);
+        System.out.println(matriz);
         //
     }
 
     public void mostrar(){
-        for (int i = 0; i < anArray2.length; i++) {
-            for (int j = 0; j < anArray2.length; j++) {
-                System.out.print(anArray2[i][j] + " ");
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz.length; j++) {
+                System.out.print(matriz[i][j] + " ");
             }
             System.out.println();
         }
     }
 
-    public void suma(){
-    this.anArray2 = anArray2;
-    this.anArray1 = anArray1;
-    System.out.println(anArray2);
+    public void suma(int [][] matriz2){
+        this.matriz = matriz;
+        this.vector = vector;
+        //suma() = matriz + matriz2;
 
     }
 
@@ -53,28 +53,28 @@ public class arrayPractice {
         this.size = size;
     }
 
-    public int[][] getAnArray2() {
-        return anArray2;
+    public int[][] getmatriz() {
+        return matriz;
     }
 
-    public void setAnArray2(int[][] anArray2) {
-        this.anArray2 = anArray2;
+    public void setmatriz(int[][] matriz) {
+        this.matriz = matriz;
     }
 
-    public int[] getAnArray1() {
-        return anArray1;
+    public int[] getvector() {
+        return vector;
     }
 
-    public void setAnArray1(int[] anArray1) {
-        this.anArray1 = anArray1;
+    public void setvector(int[] vector) {
+        this.vector = vector;
     }
 
     @Override
     public String toString() {
         return "arrayPractice{" +
                 "size=" + size +
-                ", anArray2=" + Arrays.toString(anArray2) +
-                ", anArray1=" + Arrays.toString(anArray1) +
+                ", matriz=" + Arrays.toString(matriz) +
+                ", vector=" + Arrays.toString(vector) +
                 '}';
     }
 

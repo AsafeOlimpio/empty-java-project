@@ -7,8 +7,8 @@ public class Test {
     a1.asignar();
     a1.mostrar();*/
 
-    Punto p = new Punto(3,8);
-    System.out.println(p.distancia(2,5));
+    /*Punto p = new Punto(3,8);
+    System.out.println(p.distancia(2,5));*/
     }
 
 }
