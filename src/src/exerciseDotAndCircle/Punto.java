@@ -1,4 +1,4 @@
-package com.teaching.android;
+package exerciseDotAndCircle;
 
 import static jdk.nashorn.internal.runtime.regexp.joni.Syntax.Java;
 

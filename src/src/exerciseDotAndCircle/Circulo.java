@@ -1,4 +1,4 @@
-package com.teaching.android;
+package exerciseDotAndCircle;
 
 public class Circulo {
     private Punto centro;

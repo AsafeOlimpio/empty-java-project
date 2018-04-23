@@ -1,4 +1,4 @@
-package com.teaching.android;
+package IntroductionPractices;
 
 public class Persona {
 

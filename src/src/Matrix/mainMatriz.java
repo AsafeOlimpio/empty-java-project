@@ -1,4 +1,4 @@
-package com.teaching.android;
+package Matrix;
 
 public class mainMatriz {
     public static void main(String[]args){
@@ -9,7 +9,7 @@ public class mainMatriz {
         m1.asignarDatos(v1);
         m2.asignarDatos(v2);
         System.out.println("Matriz 1: ");
-        //m1.suma(m2);
+        m1.suma(m2);
         m1.producto(m2);
         m1.mostrar();
     }

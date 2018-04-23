@@ -1,4 +1,4 @@
-package com.teaching.android;
+package Matrix;
 
 import java.util.Arrays;
 
@@ -22,6 +22,7 @@ public class Matrix {
         int indice = 0;
         for (int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz.length; j++){
+                //El vector usa ek indice para recorrer la matriz
                 matriz[i][j] = vector[indice++];
             }
         }
@@ -38,9 +39,9 @@ public class Matrix {
         }
     }
     //Metodo que suma 2 matrices
+    //Pedimos un valor, una matriz exactamente "m1 o m2 creadas en el metodo main"
     public void suma(Matrix m){
-        //int matriz[][] = new int[size][size];
-        //int [][] result = new int[3][3];
+        //Bucles for para recorrer la matriz bidimensional representados por "i" y "j" filas y columnas
         for (int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz.length; j++){
                matriz[i][j] = matriz[i][j] + m.matriz[i][j];
@@ -49,10 +50,8 @@ public class Matrix {
         }
         //System.out.println(matriz);
     }
-
+    //Metodo que multiplica las posiciones de una matriz por la otra
     public void producto(Matrix m){
-        //int matriz[][] = new int[size][size];
-        //int [][] result = new int[3][3];
         for (int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz.length; j++){
                 matriz[i][j] = matriz[i][j] * m.matriz[i][j];

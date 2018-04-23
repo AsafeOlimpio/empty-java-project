@@ -1,9 +1,6 @@
-package com.teaching.android;
+package IntroductionPractices;
 
-import java.util.Random;
-import java.util.Scanner;
-
-import static com.teaching.android.GuessTheNumber.tryAgain;
+import com.teaching.android.exerciseDotAndCircle.Punto;
 
 public class JavaApp extends GuessTheNumber{
 

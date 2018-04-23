@@ -1,4 +1,4 @@
-package com.teaching.android.Banco;
+package Banco;
 
 public class TestUsuario {
 
