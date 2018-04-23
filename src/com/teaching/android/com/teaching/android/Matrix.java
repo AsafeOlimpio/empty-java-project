@@ -38,14 +38,25 @@ public class Matrix {
         }
     }
     //Metodo que suma 2 matrices
-    public void suma(int[][] m, int[][] m2){
+    public void suma(Matrix m){
         //int matriz[][] = new int[size][size];
-        int[][] sum = new int[0][0];
         //int [][] result = new int[3][3];
         for (int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz.length; j++){
-               sum[i][j] = m[i][j] + m2[i][j];
-               System.out.println("La suma es igual a: " + sum);
+               matriz[i][j] = matriz[i][j] + m.matriz[i][j];
+               //System.out.println("La suma es igual a: " + matriz[i][j] + " ");
+            }
+        }
+        //System.out.println(matriz);
+    }
+
+    public void producto(Matrix m){
+        //int matriz[][] = new int[size][size];
+        //int [][] result = new int[3][3];
+        for (int i = 0; i < matriz.length; i++){
+            for (int j = 0; j < matriz.length; j++){
+                matriz[i][j] = matriz[i][j] * m.matriz[i][j];
+                //System.out.println("La suma es igual a:  * matriz[i][j] + " ");
             }
         }
         //System.out.println(matriz);

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8c7226-4099-417e-b29a-2e7b34ad675f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/mainMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/mainMatriz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,49 +20,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Banco.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Banco.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestUsuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/TestUsuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <element signature="e#1620#1621#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-                <element signature="e#1730#1731#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Test.java">
+      <file leaf-file-name="mainMatriz.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/mainMatriz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Punto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-              <folding>
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,8 +94,13 @@
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrayPractice.java" />
-        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java" />
         <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Banco.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/TestUsuario.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/mainMatriz.java" />
       </list>
     </option>
   </component>
@@ -112,9 +115,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +151,15 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="Banco" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.mainMatriz">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -189,7 +201,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teaching.android.*" />
+          <option name="PATTERN" value="com.teaching.android.Banco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,18 +212,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teaching.android.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Persona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.teaching.android.Persona" />
-      <module name="empty-java-project" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.teaching.android.*" />
+          <option name="PATTERN" value="com.teaching.android.Banco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,7 +223,18 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teaching.android.*" />
+          <option name="PATTERN" value="com.teaching.android.Banco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teaching.android.Banco.TestUsuario" />
+      <module name="empty-java-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teaching.android.Banco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,13 +242,13 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="arrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.teaching.android.arrayPractice" />
+    <configuration name="mainMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teaching.android.mainMatriz" />
       <module name="empty-java-project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teaching.android.*" />
+          <option name="PATTERN" value="com.teaching.android.Banco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,19 +424,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Persona" />
-      <item itemvalue="Application.arrayPractice" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Circulo" />
       <item itemvalue="Application.JavaApp" />
+      <item itemvalue="Application.mainMatriz" />
+      <item itemvalue="Application.TestUsuario" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mainMatriz" />
+        <item itemvalue="Application.TestUsuario" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Circulo" />
         <item itemvalue="Application.JavaApp" />
-        <item itemvalue="Application.arrayPractice" />
-        <item itemvalue="Application.Persona" />
       </list>
     </recent_temporary>
   </component>
@@ -452,28 +464,28 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2400636" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23937008" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17789166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2737921" />
       <window_info id="Learn" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Nl-Palette" order="5" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32755905" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -484,6 +496,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Banco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/TestUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrayPractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -551,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,9 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,9 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,37 +674,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/EvenOrOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrayPractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -708,40 +692,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-          <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java">
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Test.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/EvenOrOdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Banco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/TestUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/mainMatriz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>

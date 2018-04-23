@@ -8,9 +8,10 @@ public class mainMatriz {
         int [] v2 = {1, 1, 2, 2, 1, 1, 1, 2, 1};
         m1.asignarDatos(v1);
         m2.asignarDatos(v2);
-        //m2.suma();
+        System.out.println("Matriz 1: ");
+        //m1.suma(m2);
+        m1.producto(m2);
         m1.mostrar();
-        m2.mostrar();
     }
 
 }
