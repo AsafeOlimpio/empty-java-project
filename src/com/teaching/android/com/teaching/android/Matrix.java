@@ -2,24 +2,23 @@ package com.teaching.android;
 
 import java.util.Arrays;
 
-public class arrayPractice {
+public class Matrix {
     //Creaamos las variables
-    int size = 3;
+    private int size = 3;
     private int[][] matriz = new int[size][size];
     private int[] vector = {};
+    private int[][] result;
 
 
     //Creamos los constructores
-    public arrayPractice() {
+    public Matrix() {
         this.matriz = matriz;
         this.vector = vector;
 
     }
 
-    //Metodo que asignará los datos del vector en la matriz
-    public void asignarDatos(){
-        this.matriz = matriz;
-        this.vector = vector;
+    //Metodo que asignará los datos del vector en la matriz y debe pedir un int[] para que introduzcamos el valor del vector
+    public void asignarDatos(int[] vector){
         int indice = 0;
         for (int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz.length; j++){
@@ -38,12 +37,18 @@ public class arrayPractice {
             System.out.println();
         }
     }
-
-    public void suma(int [][] matriz2){
-        this.matriz = matriz;
-        this.vector = vector;
-        //suma() = matriz + matriz2;
-
+    //Metodo que suma 2 matrices
+    public void suma(Matrix m){
+        //int matriz[][] = new int[size][size];
+        int sum = 0;
+        int [][] result = new int[3][3];
+        for (int[] i : matriz){
+            for (int[] j : matriz){
+               sum += i + j;
+               System.out.println("La suma es igual a: " + sum);
+            }
+        }
+        //System.out.println(matriz);
     }
 
     public int getSize() {
@@ -70,16 +75,32 @@ public class arrayPractice {
         this.vector = vector;
     }
 
+    public int[][] getMatriz() {
+        return matriz;
+    }
+
+    public void setMatriz(int[][] matriz) {
+        this.matriz = matriz;
+    }
+
+    public int[] getVector() {
+        return vector;
+    }
+
+    public void setVector(int[] vector) {
+        this.vector = vector;
+    }
+
     @Override
     public String toString() {
-        return "arrayPractice{" +
+        return "Matrix{" +
                 "size=" + size +
                 ", matriz=" + Arrays.toString(matriz) +
                 ", vector=" + Arrays.toString(vector) +
                 '}';
     }
 
-    public arrayPractice(int size) {
+    public Matrix(int size) {
         this.size = size;
     }
 }
