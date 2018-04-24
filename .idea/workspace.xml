@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8c7226-4099-417e-b29a-2e7b34ad675f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix/mainMatriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/abstractClassExample/Circulo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/abstractClassExample/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Consesionario/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Consesionario/Consesionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Consesionario/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Consesionario/Pruebas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Consesionario/Vehiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empty-java-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/empty-java-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Banco/Banco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Banco/TestUsuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Banco/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Circulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/EvenOrOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/GuessTheNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/JavaApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Punto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/arrayPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/empty-java-project/com/teaching/android/mainMatriz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/Exercise_For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Exercise_For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/EvenOrOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/GuessTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/JavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Punto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrays/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrays/arrayPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/mainMatriz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/IntroductionPractices/JavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/IntroductionPractices/JavaApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +23,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestUsuario.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/src/Banco/TestUsuario.java">
+      <file leaf-file-name="Consesionario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Consesionario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding>
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1769#1770#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1885#1886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Matrix/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pruebas.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Pruebas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vehiculo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Vehiculo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coche.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Coche.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Moto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Moto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding>
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,26 +183,30 @@
         <option value="$PROJECT_DIR$/src/src/IntroductionPractices/EvenOrOdd.java" />
         <option value="$PROJECT_DIR$/src/src/IntroductionPractices/Exercise_For.java" />
         <option value="$PROJECT_DIR$/src/src/IntroductionPractices/GuessTheNumber.java" />
-        <option value="$PROJECT_DIR$/src/src/IntroductionPractices/JavaApp.java" />
         <option value="$PROJECT_DIR$/src/src/IntroductionPractices/Persona.java" />
         <option value="$PROJECT_DIR$/src/src/Matrix/mainMatriz.java" />
         <option value="$PROJECT_DIR$/src/src/Matrix/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/src/Consesionario/Coche.java" />
+        <option value="$PROJECT_DIR$/src/src/Consesionario/Moto.java" />
+        <option value="$PROJECT_DIR$/src/src/Consesionario/Vehiculo.java" />
+        <option value="$PROJECT_DIR$/src/src/IntroductionPractices/JavaApp.java" />
+        <option value="$PROJECT_DIR$/src/src/Consesionario/Consesionario.java" />
+        <option value="$PROJECT_DIR$/src/src/Consesionario/Pruebas.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="6" />
-    <option name="y" value="65" />
-    <option name="width" value="914" />
-    <option name="height" value="677" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +218,26 @@
               <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Consesionario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaproject_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mainMatriz">
+  <component name="RunManager" selected="Application.Pruebas">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -201,13 +295,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="JavaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.teaching.android.IntroductionPractices.JavaApp" />
+    <configuration name="Pruebas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Consesionario.Pruebas" />
       <module name="empty-java-project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teaching.android.Banco.*" />
+          <option name="PATTERN" value="Consesionario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -421,17 +515,17 @@
     <list>
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Circulo" />
-      <item itemvalue="Application.JavaApp" />
       <item itemvalue="Application.mainMatriz" />
       <item itemvalue="Application.TestUsuario" />
+      <item itemvalue="Application.Pruebas" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pruebas" />
         <item itemvalue="Application.mainMatriz" />
         <item itemvalue="Application.TestUsuario" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Circulo" />
-        <item itemvalue="Application.JavaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -453,17 +547,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32750398" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23847377" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2337043" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2737921" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15446559" />
       <window_info id="Learn" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -471,15 +566,14 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Nl-Palette" order="5" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32750398" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -490,105 +584,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/GuessTheNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/EvenOrOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Persona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Punto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/GuessTheNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Circulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Persona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/GuessTheNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Circulo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Persona.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" />
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Ejercicio_For.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/org/w3c/dom/css/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -598,118 +603,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Persona.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Banco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/TestUsuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/abstractClassExample/Figura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/abstractClassExample/Circulo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Punto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Persona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/GuessTheNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/EvenOrOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrays/arrayPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrays/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Exercise_For.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix/mainMatriz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Circulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Usuario.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/Banco.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Banco/TestUsuario.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/abstractClassExample/Figura.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/abstractClassExample/Circulo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Punto.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Persona.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/JavaApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/GuessTheNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/EvenOrOdd.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrays/arrayPractice.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/arrays/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/IntroductionPractices/Exercise_For.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix/mainMatriz.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/exerciseDotAndCircle/Circulo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/teaching/android/com/teaching/android/Matrix/Matrix.java" />
     <entry file="file://$PROJECT_DIR$/src/src/abstractClassExample/Circulo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -739,20 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Banco/Banco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Banco/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/exerciseDotAndCircle/Circulo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -771,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/IntroductionPractices/JavaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -802,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Matrix/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Matrix/mainMatriz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -820,6 +701,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Banco/Banco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Banco/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Moto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/IntroductionPractices/JavaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Coche.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Vehiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Matrix/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Consesionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Consesionario/Pruebas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -840,7 +832,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -880,6 +872,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
