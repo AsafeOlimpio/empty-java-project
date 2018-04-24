@@ -25,7 +25,7 @@ public class Consesionario {
     //Metodo Introducir Vehiculo
     public void addVehiculo(Vehiculo vehiculos){
         for (int i = 0; i < vehiculo.length; i++){
-            //HAy que decir la posición del array
+            //Hay que definir la posición del array
             if(vehiculo[i]==null){
                 //El vector usa el indice para recorrer la matriz
                 this.vehiculo[i] = vehiculos;
