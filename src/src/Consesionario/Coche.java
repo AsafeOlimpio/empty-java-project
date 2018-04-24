@@ -2,16 +2,16 @@ package Consesionario;
 
 public class Coche extends Vehiculo {
     //Attributes
+    private String nombre;
     private int nplazas;
     private String extras;
 
     //Extended & Class COnstructors
-    public Coche(String matricula, String color, boolean isreserved, double precio) {
-        super(matricula, color, isreserved, precio);
-    }
 
-    public Coche(String matricula, String color, boolean isreserved, double precio, int nplazas, String extras) {
+
+    public Coche(String matricula, String color, boolean isreserved, double precio, String nombre, int nplazas, String extras) {
         super(matricula, color, isreserved, precio);
+        this.nombre = nombre;
         this.nplazas = nplazas;
         this.extras = extras;
     }
@@ -20,12 +20,23 @@ public class Coche extends Vehiculo {
     @Override
     public String toString() {
         return "Coche{" +
-                "nplazas=" + nplazas +
+                "nombre='" + nombre + '\'' +
+                ", nplazas=" + nplazas +
                 ", extras='" + extras + '\'' +
                 '}';
     }
 
+
     //Getters & Setters
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getNplazas() {
         return nplazas;
     }

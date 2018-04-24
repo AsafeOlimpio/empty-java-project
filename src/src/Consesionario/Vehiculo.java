@@ -16,6 +16,7 @@ public class Vehiculo {
     }
 
     //To String
+
     @Override
     public String toString() {
         return "Vehiculo{" +
@@ -26,7 +27,9 @@ public class Vehiculo {
                 '}';
     }
 
+
     //Getters & Setters
+
     public String getMatricula() {
         return matricula;
     }
