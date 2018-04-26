@@ -29,16 +29,16 @@ public class Coche extends Vehiculo {
         else {return "Disponible";}
     }
 
-    //Método Mostrar Segun Matrícula
+    /*//Método Mostrar Segun Matrícula
     public void csM(String matricula){
-    //System.out.println(getMatricula(),getNombre(),getNplazas(),getExtras());
         System.out.println("El coche de matricula: " + getMatricula() + " Es: " + getNombre() + " Con: " + getNplazas() + " Plazas "  + " Con: " + getExtras());
-    }
+    }*/
 
     //To String
     @Override
     public String toString() {
-        return "Coche{ " +
+        return super.toString()+
+                "Coche{ " +
                 "nombre = ' " + nombre + '\'' + " Estado: " + isReserved() +
                 ", nplazas = " + nplazas +
                 ", Extras = '" + extras + '\'' +

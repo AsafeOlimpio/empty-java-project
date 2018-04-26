@@ -21,7 +21,7 @@ public class Vehiculo {
                                                     /*Métodos*/
 
     //Método para reservar vehículos por matrícula
-    public void reservar(String matricula){
+    public void reservar(String matricula) {
         if(isreserved = false){
             setIsreserved(true);
         }
@@ -29,7 +29,6 @@ public class Vehiculo {
             System.out.println("El coche ya está reservado");
         }
         else {System.out.println("El coche no está registrado o ha sido retirado");}
-
     }
 
     //Método Mostrar Segun Matrícula
@@ -81,5 +80,9 @@ public class Vehiculo {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    public int compareTo(Vehiculo matricula){
+       this.matricula = matricula
     }
 }

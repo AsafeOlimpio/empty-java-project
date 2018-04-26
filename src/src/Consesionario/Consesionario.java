@@ -1,6 +1,9 @@
 package Consesionario;
 
 import java.util.Arrays;
+import java.util.SortedSet;
+import java.util.TreeSet;
+import java.util.concurrent.ExecutionException;
 
 public class Consesionario {
     //Attributes
@@ -10,7 +13,7 @@ public class Consesionario {
     //Creamos una constante para el numero de vehiculos que nuestro concesionário tendrá
     private static final int size = 5;
     //Podemos pasar clases como atributos
-    private Vehiculo[] vehiculo;
+    private SortedSet<Vehiculo> vehiculo = new TreeSet<>((v1,v2) -> v1.compareTo(v2) );
 
     //Constructor
 
@@ -19,12 +22,19 @@ public class Consesionario {
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
-        this.vehiculo = new Vehiculo[size];
+        this.vehiculo = vehiculo;
     }
 
     //Metodo Introducir Vehiculo
+
     public void addVehiculo(Vehiculo vehiculos){
-        for (int i = 0; i < vehiculo.length; i++){
+        vehiculo.add(vehiculos);
+    }
+
+
+    /*public void addVehiculo(Vehiculo vehiculos) throws Exception {
+        int i = 0;
+        for (; i < vehiculo.length; i++){
             //Hay que definir la posición del array
             if(vehiculo[i]==null){
                 //El vector usa el indice para recorrer la matriz
@@ -33,13 +43,24 @@ public class Consesionario {
                 break;
             }
         }
+        if (i >= size){throw new Exception();}
+    }*/
 
-    /*for(int i = 0; i < vehiculos.length; i++){
-        if (vehiculo == null){
-           this.vehiculo[size] = vehiculo;
+    //Metodo buscar vehículo
+
+    /*public void buscar(String matricula) throws Exception{
+        Vehiculo vehicle = null;
+        int i =0;
+            for (;i<size; i++) {
+                if (vehiculo[i] != null && vehiculo[i].getMatricula().equals(matricula)) {
+                    vehicle = vehiculo[i];
+                    System.out.println(vehicle);
+                    break;
+                }
+            }
+        if (i >= size){throw new Exception();
         }
     }*/
-    }
 
     //To String
     @Override
@@ -48,7 +69,7 @@ public class Consesionario {
                 "nombre='" + nombre + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", telefono=" + telefono +
-                ", vehiculo=" + Arrays.toString(vehiculo) +
+                ", vehiculo=" + vehiculo +
                 '}';
     }
 
